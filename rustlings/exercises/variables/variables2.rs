@@ -1,0 +1,48 @@
+// variables2.rs
+// Make me compile! Scroll down for hints :)
+
+fn main() {
+    //not correct yet! Gotta do some more reading but I dont feel like it today.
+    let mut x = i32;
+    if x == 10 {
+        println!("Ten!");
+    } else {
+        println!("Not ten!");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// The compiler message is saying that Rust cannot infer the type that the
+// variable binding `x` has with what is given here.
+// What happens if you annotate line 5 with a type annotation?
+// What if you give x a value?
+// What if you do both?
+// What type should x be, anyway?
+// What if x is the same type as 10? What if it's a different type?
